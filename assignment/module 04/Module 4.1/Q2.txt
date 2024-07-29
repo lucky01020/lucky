@@ -1,0 +1,19 @@
+2. What is OOP? List OOP concepts
+
+Ans) OOP stands for object oriented programm.
+
+->OOP is a method to design a program using class and object.
+
+
+   Concepts of OOP:
+
+1)Class and Object
+
+2)Inheritence
+
+3)Polymorphism
+
+4)Abstraction
+
+5)Encapsulation
+ 

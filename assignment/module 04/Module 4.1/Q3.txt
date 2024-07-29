@@ -1,0 +1,17 @@
+3. What is the difference between OOP and POP
+
+-> OOP 
+
+1) This is Object oriented programming.
+2) OOP is secure because of it's data hiding.
+3)Code reusability
+4)Concept of object and class
+5)Data gets more importance....ex: java,c++..
+
+-> POP
+
+1)This is Procedure oriented programming.
+2)Pop does not have concept of inheritence.
+3)Code reusability is not possible
+4)More importance is given to function than data
+5)Example is-> C langauge....
