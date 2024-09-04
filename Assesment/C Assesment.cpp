@@ -10,13 +10,13 @@
 #include<stdio.h>
 #include<string.h>
 
-#define MAX_CHAR 256
+
 
 main()
 
 {
 	char a[10],b[10],c;  
-	int choice,i,j=0,z=0;
+	int choice,i,j=0,z=0,l;
 	
 	while(choice!='n')    //using loop for menu driven
 	{
@@ -42,112 +42,112 @@ main()
 			printf("Enter your string:");
 			gets(a);                        //taking user input
 				
-			printf("Reverse of string: %s",strrev(a)); //reversing a string using inbuilt method
+			for(i=0;a[i]!='\0';i++)   //count length of string
+			   l++;
+			   
+			for(i=0;a[i]!='\0';i++)  //reverse a string
+			{
+				l--;
+				b[l]=a[i];  
+			   } 
+			   printf("Reversed string : %s",b);  
+			   
 		}
 		else if(choice==2)
 		{
-			printf("Enter the string:");
-			gets(a);
 			
-			printf("Enter the second string:");
-			gets(b);                             //taking user input
-			
-			strcat(a,b);        //using inbuilt for concatenation
-			
-			printf("After concatenation: %s",a);
+				printf("\nEnter any String A : ");
+				gets(a);
+	
+				printf("Enter any String B : ");
+				gets(b);
+	
+				for(i=0;a[i]!='\0';i++); //string A
+	
+				for(j=0;b[j]!='\0';j++) //join string B in A.
+				{
+					a[i]=b[j];
+					i++;
+				}
+				a[i]='\0';
+	
+				printf("Concated String is : %s",a);
+				
 		}
 		
 		else if(choice==3)
 		{
-			printf("Enter the string:");
-			gets(a);                       //taking user input
-			
-		    strcpy(b,a);     //copying string 
-		    
-		    strrev(a);   //reversing string for palindrome
-		    
-		    for (i=0;a[i]!='\0';i++)
-		    {
-		    	
-		    	if(a[i]==b[i])
-		    	  j=1;
-		    	
-		    	else
-		    	{
-		    		j=0;
-		    		break;
+			printf("\nPlease Enter a String : ");
+				gets(a);
+				
+				for(i=0;a[i]!='\0';i++)	//count length of String.
+					l++;
+	
+				for(i=0;a[i]!='\0';i++) //Reverse a String
+				{
+					l--;
+					b[l]=a[i];	     //store reversed string in b variable.
+				}
+				
+				for(i=0;a[i]!='\0';i++)//Check String and reverse String are same or not
+				{
+					if(a[i]==b[i])
+						j=1;
+					else
+					{
+						j=0;
+					
+					}
 				}
 			}
-			
-			if(j==1)
-			
-			printf("String is palindrome");
-		    
-		    else
-		    
-		    printf("String is not palindromee");
-		    
-		}
-		
+				
 		else if(choice==4)
 		{
 		
-		printf("Enter the string 1 :");
-			gets(a);
-			
-		printf("Enter the second string 2 :");	
-			gets(b);                           //taking user input
-			
-		strcpy(b,a);   //using inbuilt method
+	printf("Enter any String : ");
+	gets(a);
+	
+	for(i=0;a[i]!='\0';i++)    //loop for copying string
+		b[i]=a[i];
+	
+	b[i]='\0';
+	
+	printf("copy String : %s",b);
 		
-		printf("After copying string: \n1 : %s \n2: %s",b,a);
      	}
      	
      	else if(choice==5)
      	{
-     		printf("Enter the string:");
-     		gets(a);                     //user input
-     		
-     		printf("Length of string is:%d",strlen(a)); //length of string using inbuilt
+     		printf("\nEnter a String : ");
+				gets(a);	// user input 
+	
+				for(i=0;a[i]!='\0';i++); //loop for Find Length
+	
+				printf("Length of String : %d",i);
 		 }
 		 
 		 
 		 else if (choice==6)
 	{
-    char str[100];
-    int frequency[MAX_CHAR] = {0}; // Array to store frequency of each character
-
-    // Get user input
-    printf("Enter a string: ");
-    fgets(str, sizeof(str), stdin);
-
-    // Remove newline character if present
-    int i = 0;
-    while (str[i] != '\0') {
-        if (str[i] == '\n') {
-            str[i] = '\0';
-            break;
-        }
-        i++;
-    }
-
-    // Count the frequency of each character
-    for (i = 0; str[i] != '\0'; i++) {
-        unsigned char index = (unsigned char)str[i];
-        frequency[index]++;
-    }
-
-    // Print the frequency of each character
-    printf("Character frequencies:\n");
-    for (i = 0; i < MAX_CHAR; i++) {
-        if (frequency[i] > 0) {
-            printf("'%c': %d\n", i, frequency[i]);
-        }
-    }
-
-    
+		printf("\nEnter Your String: ");
+    			gets(a);
+				
+				int count;
+				
+   				for (i = 65; i <= 122; i++) //find every latter using ascii values 
+				{
+        			count = 0;
+        		for (j = 0; a[j] != '\0'; j++) 
+				{
+          		  	if ((char)a[j] == i) 
+					{
+                		count++;		//count letter
+           			}
+      		 	}
+  		      	if(count!=0)
+        			printf("%c: %d\n", (char)i, count);
+   	 			}
 }
-
 
 		 else if(choice==7)
 		 {
