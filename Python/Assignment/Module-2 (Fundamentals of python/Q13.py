@@ -2,13 +2,13 @@
 
 s = input("Enter the string:")
 
-words = s.split()
+words = s.split()    #splitting the words
 
-d={}
+d={}  #empty dictionary
 
 for i in words:
     if i in d:
-        d[i]+=1
+        d[i]+=1  #occurence of more than one word in a given words
     else:
         d[i]=1
 

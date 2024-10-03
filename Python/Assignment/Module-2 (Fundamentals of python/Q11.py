@@ -2,11 +2,11 @@
 
 n = input("Enter the string:")
 
-d={}
+d={}                 #empty dictionary
 
 for i in n:
     if i in d:
-        d[i]+=1
+        d[i]+=1   #occurence of more than one character
     else:
         d[i]=1
 

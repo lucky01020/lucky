@@ -1,19 +1,18 @@
-## Write a Python function to reverses a string if its length is a multiple of 4.  
+# Write a Python program to get a string made of the first 2 and the last 2 chars from a given a string. 
+# If the string length is less than 2, return instead of the empty string.  
 
-def reverse(s):
+s = input("Enter a string: ")
+
+ls = 0
+    # count the length of string.
+for i in s:
+    ls += 1
     
-        ls = 0 
-            # count length of string.
-        for i in s:
-            ls += 1
-                # Check if the length of the string is a multiple of 4
-        if ls % 4 == 0:
-            # Reverse the string
-                return s[::-1]
-        else:
-                # If length is not multiply by 4, keep the string as it is
-                return "length of String is not a multiple of 4."
-
-st = input("Enter a string: ")
-    # Print the rs
-print(reverse(st))
+    # Check if the length of the string is less than 2
+if ls < 2:
+        # If the string length is less than 2, return a messsage
+    print("String is Short.")
+    
+else:
+        # Create a new string with the first 2 and last 2 characters
+    print(f"The new string is: {s[:2] + s[-2:]}")

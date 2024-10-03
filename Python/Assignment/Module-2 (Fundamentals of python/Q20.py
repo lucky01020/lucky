@@ -1,18 +1,21 @@
-# Write a Python program to get a string made of the first 2 and the last 2 chars from a given a string. 
-# If the string length is less than 2, return instead of the empty string.  
+# Write a Python function to insert a string in the middle of a string. 
 
-s = input("Enter a string: ")
+def insert_String(main_s,s):
+        
+        sl = 0
+                # calculate the length of main string. 
+        for i in main_s:
+                sl += 1
+                # Calculate the middle index of the main string
+        middle = sl // 2
 
-ls = 0
-    # count the length of string.
-for i in s:
-    ls += 1
-    
-    # Check if the length of the string is less than 2
-if ls < 2:
-        # If the string length is less than 2, return a messsage
-    print("String is Short.")
-    
-else:
-        # Create a new string with the first 2 and last 2 characters
-    print(f"The new string is: {s[:2] + s[-2:]}")
+
+                # Insert the string at the middle index
+        return main_s[:middle] + s + main_s[middle:]
+        
+        #main string
+main_string = input("Enter the main string: ")
+
+        # take user input to enter the string to insert
+str = input("Enter the string to insert: ")
+print(f"The new string is: {insert_String(main_string,str)}")

@@ -1,16 +1,16 @@
 #Write a Python program to count occurrences of a substring in a string.
 
 n = input("Enter the string:")
-s = input("Enter the substring:")
+s = input("Enter the substring:")  #input main string and substring
 
 count=0
 start=0
 sl=0
 
-for i in n:
+for i in n:  #loop for the main string
     sl+=1
 
-while start<sl:
+while start<sl:           
     pos = n.find(s,start)
     if pos!=-1:
         count+=1
@@ -18,5 +18,6 @@ while start<sl:
     else:
         break
 
-print(f"overlapping occurence of '{s}'in '{n}':{count}")           
+print(f"overlapping occurence of '{s}'in '{n}':{count}") #print the result
+          
 

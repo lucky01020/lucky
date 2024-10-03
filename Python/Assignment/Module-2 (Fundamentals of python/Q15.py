@@ -5,10 +5,10 @@ unchanged."""
 
 s = input("Enter the string:")
 if len(s)>=3:
-    if s.endswith('ing'):
-        s1 = s+'ly'
+    if s.endswith('ing'):  
+        s1 = s+'ly'         #if end with ing adding ly
     else:
-        s1 = s+'ing'
+        s1 = s+'ing' #adding ing if not having ing
 else:
     s1=s 
 print(s1)               

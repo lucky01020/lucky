@@ -49,8 +49,10 @@ for i in range(0,len(l)):
 print(l2)
 
 print("Smallest:",l2[0])
-print("Largest:",l2[-1])
+print("Largest:",l2[-2])
 """
+
+""""
 l=[1,2,1.43,"hello","welcome",True,45,11,11,11]
 l.append(100)
 print(l)
@@ -59,3 +61,11 @@ l.extend([200,100,10])
 print(l)
 
 print(l.index(11))
+"""
+l=[23,32,11,55,24]
+
+l.sort()
+
+print("second smallest:",l[2])
+print("second largest:",l[-2])
+
