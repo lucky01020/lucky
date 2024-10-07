@@ -7,7 +7,7 @@ file.close()
 file = open("C:\\Users\Admin\\Documents\\c programming\\classworkhello.txt","a")
 file.write("\nThis is append method")
 file.close()
-"""
+"""                                                                                             
 
 """
 file = open("C:\\Users\Admin\\Documents\\c programming\\classworkhello1.txt","w+")
