@@ -2,11 +2,11 @@
 
 input_string = 'LuckyTiwari'
 
-d = {}
+d = {} #empty dictionary
 
 for i in input_string:
     if i in d:
-        d[i]+=1
+        d[i]+=1   
     else :
         d[i]=1
-print(d)        
+print(d)     #printing result   

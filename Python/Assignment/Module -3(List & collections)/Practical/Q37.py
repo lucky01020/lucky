@@ -2,13 +2,13 @@
 
 def palindrome(s):
 
-    s1 = s[::-1]
+    s1 = s[::-1] #reversing string 
 
     return s == s1
 
-s2 = input("Enter the string :")
+s2 = input("Enter the string :") #user input
 
 if palindrome(s2):
-    print("It is palindrome!!")
+    print("It is palindrome!!") 
 else:
     print("not palindrome!!")    

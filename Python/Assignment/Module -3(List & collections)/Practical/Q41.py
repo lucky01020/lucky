@@ -5,6 +5,7 @@
 a = float(input("Enter the base : "))
 h = float(input("Enter the height : "))
 
-area = a*h
+area = a*h #appllying formula
 
-print("Result : ",area)
+
+print("Result : ",area) #printing result

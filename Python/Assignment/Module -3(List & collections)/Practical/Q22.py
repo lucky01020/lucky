@@ -2,6 +2,6 @@
 
 t = [('a',1),('b',2)]
 
-new_dict = dict(t)
+new_dict = dict(t) #simply converting into dictionary
 
 print(new_dict)

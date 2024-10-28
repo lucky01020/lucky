@@ -2,6 +2,6 @@
 
 l = [12,23,34,44]
 
-t = tuple(l)
+t = tuple(l) #converting tuple to list
 
 print(t)

@@ -3,6 +3,6 @@
 
 t = ("L","u","c","k","y")
 
-ts= "".join(t)
+ts= "".join(t)  #joining tuple with join method
 
 print("Tuple as string : ",ts)

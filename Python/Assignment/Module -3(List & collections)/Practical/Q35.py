@@ -3,13 +3,13 @@
 def inrange(n):
 
     s = int(input("Enter the starting number : "))
-    e = int (input("Enter the ending number : "))
+    e = int (input("Enter the ending number : ")) # starting and  ending number
 
-    if s <=n <=e:
+    if s <=n <=e: #condntion for checking number is in range
         print(f"{n} is in the range betweem {s} and {e} ")
     else:
         print("Not in range!!")
 
-n = int(input("Enter the number : "))
+n = int(input("Enter the number : ")) #user input
 
-inrange(n)        
+inrange(n)  #calling function      

@@ -11,8 +11,8 @@ for i in d:
     amount = i['amount']
 
     if item in d1:
-        d1[item]+=amount
+        d1[item]+=amount #combining value and amount
     else:
-        d1[item]=amount
+        d1[item]=amount 
 
-print(d1)
+print(d1) #printing the results

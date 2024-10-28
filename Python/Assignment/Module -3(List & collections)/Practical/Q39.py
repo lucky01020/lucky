@@ -4,7 +4,7 @@
 
 degrees = float(input("Enter the degree : "))
 
-radians = degrees * 3.14 / 180
+radians = degrees * 3.14 / 180 #applying formula 
 
-print("Radians : ",radians)
+print("Radians : ",radians) #result
 

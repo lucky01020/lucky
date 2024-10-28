@@ -6,6 +6,6 @@ a = float(int(input("Enter the base : ")))
 b = float(int(input("Enter the second base : ")))
 h = float(int(input("Enter the height : ")))
 
-areaoftrapezoid = 0.5*(a+b)*h
+areaoftrapezoid = 0.5*(a+b)*h #appllying formula
 
-print("Result : ",areaoftrapezoid)
+print("Result : ",areaoftrapezoid) #printing result

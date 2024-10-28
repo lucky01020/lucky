@@ -5,8 +5,8 @@ t = [12,23,34,45,56]
 
 element_check = 34
 
-if element_check in t:
-    print(f"{element_check} exist in the tuple")
+if element_check in t:    #checking whether element is there or not
+    print(f"{element_check} exist in the tuple") #printing the result
 else :
     print("Not exist in the tuple")
 

@@ -3,6 +3,6 @@
 import random
 l = ["apple","banana","grapes","mango","pineapple"]
 
-random_fruit = random.choice(l)
+random_fruit = random.choice(l)  #for random item using random function
 
 print(random_fruit)

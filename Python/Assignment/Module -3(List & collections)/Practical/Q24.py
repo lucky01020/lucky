@@ -1,14 +1,14 @@
 #Write a Python script to check if a given key already exists in a dictionary. 
 
 
-d ={'a':1,'b':2,'c':3}
+d ={'a':1,'b':2,'c':3} #create dictionary
 
-key_to_check = 'b'
+key_to_check = 'b'  
 
-if key_to_check in d:
+if key_to_check in d:  #checking whether key exists or not 
     print(f"{key_to_check} exist in dict")
 else :
-    print(f"{key_to_check} does not exist in dict")
+    print(f"{key_to_check} does not exist in dict") #printing results
 
 another_key = 'e'
 

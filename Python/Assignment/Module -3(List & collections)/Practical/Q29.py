@@ -3,7 +3,7 @@
 d = {'a' : 1, 'b'  : 2,'c' : 1,'d' : 3,'e' : 4,'f' : 5}
 
 
-unique_value = set(d.values())
+unique_value = set(d.values()) #converting into set for unique value
 
 for i in d:
 

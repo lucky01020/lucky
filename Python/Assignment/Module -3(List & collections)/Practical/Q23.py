@@ -4,6 +4,6 @@ d = {'a':1}
 d1 = {'b':2}
 d2 = {'c':3}
 
-new_dict = {**d,**d1,**d2}
+d4 = {**d,**d1,**d2} #adding all dictionaries into one
 
-print(new_dict)
+print(d4)

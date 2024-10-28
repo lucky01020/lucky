@@ -4,13 +4,13 @@ l = [1,2,3,5,6,7,8]
 
 l1 = [5,6]
 
-len_l = len(l)
-len_l1 = len(l1)
+len_l = len(l)     #finding length for both string 
+len_l1 = len(l1)  
 
 found = False
 
 for i in range (1,6):
-    if l[i:i+len_l1]==l1:
+    if l[i:i+len_l1]==l1:  #checking whether it contains sublist
         found = True
 
 if found:
