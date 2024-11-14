@@ -57,7 +57,7 @@ eemail.place(x=270, y=110)
 epassword = Entry(root,bg="Lightblue")
 epassword.place(x=270, y=160)
 
-ecpassword = Entry(root,bg="Lightblue")
+ecpassword = Entry(root,bg="Lightblue",show="*")
 ecpassword.place(x=270, y=210)
 
 button = Button(root,text="Submit",font=("Calibri",20,"italic","bold"),command=insert)
@@ -66,7 +66,7 @@ button.place(x=320,y=260,height="50",width="100")
 Login = Button(root,text="Login",font=("Calibri",20,"italic","bold"),command=login1)
 Login.place(x=320,y=320,height="50",width="100")
 
-root.config(bg="pink")
+root.config(bg="grey")
 
 
 root.mainloop()

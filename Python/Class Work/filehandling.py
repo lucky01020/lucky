@@ -18,10 +18,11 @@ file.seek(0)
 print(file.readline())
 file.close()
 """
-
+"""
 file = open("C:\\Users\Admin\\Documents\\c programming\\classworkhello.txt","r")
 file.read()
 file.close()
+"""
 
 
 

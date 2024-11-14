@@ -4,7 +4,7 @@ def login1():
 
     root = Tk()
     root.geometry("500x500")
-    root.title("Signup Form!!")
+    root.title("Login page!!")
 
     email = Label(root,text="Email",font=("Calibri",20,"bold"))
     email.place(x=50,y=100)
