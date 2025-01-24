@@ -7,13 +7,13 @@ for i in range(10):
         l.append(i)
 print(l)
 """
-"""
-d = {}
 
-for i in range(1,10):
+# d = {}
+
+# for i in range(1,10):
     
-    d[i] = i*i
+#     d[i] = i*i
     
-print(d)
-"""
+# print(d)
+
 

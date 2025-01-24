@@ -90,6 +90,8 @@ for i in range(c):
 print(l)
 """
 """
+"""""
+"""
 l = [12,32,11,66,43]
 
 b = []
@@ -98,6 +100,8 @@ for i in range(len(l)-1,-1,-1):
     b.append(l)
     
 print(b)
+"""
+"""
 """
 """
 l = [9,5,-2,1,4,-6]
@@ -133,35 +137,39 @@ l.sort()
 scnd = l[-2]
 print(scnd)
 """
+
+# d = {1:20,2:40,3:60}
+# d1 = {4:80,5:100,6:120}
+
+# d2 = {}
+
+# for i, value in d.items():
+#     d2[i] = value
+
+# for i, value in d1.items():
+    
+#     d2[i] = value    
+
+# print(d2) 
 """
-d = {1:20,2:40,3:60}
-d1 = {4:80,5:100,6:120}
-
-d2 = {}
-
-for i, value in d.items():
-    d2[i] = value
-
-for i, value in d1.items():
-    d2[i] = value    
-
-print(d2) 
-"""
-"""
-l = [12,23,3,4,5,2,4,2,6,75,6,7,7,99,5,5,3,3,6]
-
-d = {}
-
-for i in l:
-    if i in d.keys():
-        d[i]+=1
-    else:
-        d[i]=1
-
-print(d)
 """
 
+# l = [12,23,3,4,5,2,4,2,6,75,6,7,7,99,5,5,3,3,6]
+
+# d = {}
+
+# for i in l:
+#     if i in d.keys():
+#         d[i]+=1
+#     else:
+#         d[i]=1
+
+# print(d)
 """
+
+"""
+""
+
 d = {1:20,2:40,3:60}
 d1 = {3:80,5:100,6:120}
 
@@ -172,4 +180,4 @@ for i in d1.keys():
         d[i] = d1[i]
 
 print(d)
-"""            
+           

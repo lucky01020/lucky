@@ -146,8 +146,9 @@ merged_dict = {**d,**d1}
 
 print(merged_dict)
 """
-#Write a Python program to map two lists into a dictionary
 """
+#Write a Python program to map two lists into a dictionary
+
 key = [1,2,3]
 values = ['a','b','c']
 
@@ -155,6 +156,7 @@ mapped_list= dict(zip(key,values))
 
 print(mapped_list)
 """
+
 #Write a Python program to combine two dictionary adding values for common keys. 
 """
 d={'a':300,'b':200}
@@ -171,6 +173,4 @@ for i, value in d1.items():
         d2[i]= value    
 print(d2)
 """
-
-
 
