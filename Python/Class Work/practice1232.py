@@ -1,4 +1,4 @@
-"""foods = []
+foods = []
 prices = []
 
 total = 0
@@ -22,8 +22,8 @@ for price in prices:
     total = total+price
 print()
 print(f"Your total bill is {total}")
-"""
 
+"""
 menu = {'Pizza': 70,
         'Burger':65,
         'Coca-Cola':49,
@@ -54,6 +54,6 @@ print("---------------------------------")
     
 print(f"Your Total bill is {total} rupees")    
         
-    
+ """   
 
 

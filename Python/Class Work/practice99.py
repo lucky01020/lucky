@@ -158,7 +158,7 @@ print(mapped_list)
 """
 
 #Write a Python program to combine two dictionary adding values for common keys. 
-"""
+
 d={'a':300,'b':200}
 d1={'a':200,'b':100}
 
@@ -172,5 +172,5 @@ for i, value in d1.items():
     else:
         d2[i]= value    
 print(d2)
-"""
+
 
