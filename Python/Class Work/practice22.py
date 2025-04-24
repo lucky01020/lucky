@@ -138,33 +138,33 @@ scnd = l[-2]
 print(scnd)
 """
 
-# d = {1:20,2:40,3:60}
-# d1 = {4:80,5:100,6:120}
+d = {1:20,2:40,3:60}
+d1 = {4:80,5:100,6:120}
 
-# d2 = {}
+d2 = {}
 
-# for i, value in d.items():
-#     d2[i] = value
+for i, value in d.items():
+    d2[i] = value
 
-# for i, value in d1.items():
+for i, value in d1.items():
     
-#     d2[i] = value    
+    d2[i] = value    
 
-# print(d2) 
+print(d2) 
 """
 """
 
-# l = [12,23,3,4,5,2,4,2,6,75,6,7,7,99,5,5,3,3,6]
+l = [12,23,3,4,5,2,4,2,6,75,6,7,7,99,5,5,3,3,6]
 
-# d = {}
+d = {}
 
-# for i in l:
-#     if i in d.keys():
-#         d[i]+=1
-#     else:
-#         d[i]=1
+for i in l:
+    if i in d.keys():
+        d[i]+=1
+    else:
+        d[i]=1
 
-# print(d)
+print(d)
 """
 
 """

@@ -31,21 +31,21 @@
 
 # print(l1)
 
-# d = {'a':100,'b':200}
-# d1 = {'a':200,'b':100}
+d = {'a':100,'b':200}
+d1 = {'a':200,'b':100}
 
-# d3 = {}
+d3 = {}
 
-# for i, value in d.items():
-#     d3[i] = value
+for i, value in d.items():
+    d3[i] = value
 
-# for i,value in d1.items():
-#     if i in d3:
-#         d3[i] += value
-#     else:
-#         d3[i]= value
+for i,value in d1.items():
+    if i in d3:
+        d3[i] += value
+    else:
+        d3[i]= value
 
-# print(d3)        
+print(d3)        
 
 
 

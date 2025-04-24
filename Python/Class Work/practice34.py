@@ -14,7 +14,7 @@ for i in list:
 #Write a Python program to check whether a list contains a sub list
 
 l = [12,23,34,45,56,78]
-l1 = [24,43] 
+l1 = [24,43,23] 
 
 len_l = len(l)
 len_l1 = len(l1)
