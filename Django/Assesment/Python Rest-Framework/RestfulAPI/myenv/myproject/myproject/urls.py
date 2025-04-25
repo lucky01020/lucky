@@ -21,6 +21,6 @@ from myapp.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('userlist/', Userlist.as_view(), name='userlist'),
-    path('userdetails/<int:pk>', Userdetails.as_view(), name='userdetails')
+    path('userdetails/<int:pk>', Userdetails.as_view(), name='userdetails'),
 
 ]
